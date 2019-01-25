@@ -1,0 +1,687 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.42857143;
+  color: #333;
+  background: #fff; }
+.slds-input{margin-bottom: 5px;
+  color: #333;
+  border: 1px solid #ced4da !important;
+  font-size: 0.9rem;
+  width: 100%;
+  border-radius:12px;
+  height: 35px !important;
+  padding: 5px;
+  background: #fafafa;}
+.slds-input:focus{box-shadow: none;}
+/*login start here*/
+.customer_login {
+  background: #292d31;
+  height: 100vh; }
+  .customer_login .salesforce_login {
+    background: #fff;
+    padding: 60px 20px;
+    margin: 0px auto;
+    margin-top: 8rem;
+    border-radius: 10px; }
+    .customer_login .salesforce_login h1 {
+      font-size: 2.5rem;
+      color: #2a2e31;
+      width: 100%;
+      text-align: center; }
+  .customer_login .login_form p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 1rem;
+    color: #2a2e31;
+    display: block;
+    font-weight: 600;
+    text-align: left !important; }
+  .customer_login .login_form .form-control {
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 38px;
+    border: 1px solid #a9abac;
+    margin-bottom: 10px;
+    background: #e7e7e8; }
+    .customer_login .login_form .form-control:focus {
+      box-shadow: none; }
+  .customer_login .login_form .user_login span {
+    color: #f37339; }
+  .customer_login .login_form span {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block; }
+  .customer_login .login_form .login {
+    width: 25%;
+    text-align: center;
+    background: #f37339;
+    padding: 6px 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    float: right;
+    margin-top: 10px; }
+  .customer_login .login_form .sign_up {
+    margin-top: 10px;
+    color: #f37339; }
+  .customer_login .account_register {
+    width: 100%;
+    margin-top: 25px !important; }
+
+/*login end here*/
+/*common styles*/
+.btn:focus {
+  box-shadow: none; }
+
+.marl {
+  width: 100%;
+  margin-left: 0px; }
+
+a:hover {
+  text-decoration: none; }
+
+/*common styles*/
+/*customer_view start here*/
+.product_list .wrapper {
+  width: 100%; }
+  .product_list .wrapper .salesforce_menu {
+    height: 75px; }
+    .product_list .wrapper .salesforce_menu .navbar {
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 75px;
+      z-index: 999;
+      background-color: #535659;
+      padding: 0px; }
+      .product_list .wrapper .salesforce_menu .navbar .collapse {
+        line-height: initial; }
+        @media (min-width: 240px) and (max-width: 767px) {
+          .product_list .wrapper .salesforce_menu .navbar .collapse {
+            background: #535659; } }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .product_list .wrapper .salesforce_menu .navbar .collapse {
+            background: #535659; } }
+      .product_list .wrapper .salesforce_menu .navbar .dropdown-content {
+        background-color: #f4f3f2;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        width: 100%;
+        min-height: 300px;
+        top: 74px;
+        position: fixed;
+        left: -160px;
+        border-top: 1px solid #0e5d96; }
+        @media (min-width: 240px) and (max-width: 767px) {
+          .product_list .wrapper .salesforce_menu .navbar .dropdown-content {
+            top: 74px; } }
+      .product_list .wrapper .salesforce_menu .navbar .dropbtn {
+        font-size: 1.1rem;
+        color: #fff;
+        font-weight: bold;
+        margin: 0px auto;
+        padding-top: 9px;
+        background: #282d31;
+        border: 1px solid #282d31; }
+        .product_list .wrapper .salesforce_menu .navbar .dropbtn:focus {
+          box-shadow: none;
+          outline: none; }
+      .product_list .wrapper .salesforce_menu .navbar .dropdown {
+        position: relative;
+        display: inline-block; }
+      .product_list .wrapper .salesforce_menu .navbar .navbar-brand {
+        text-align: left;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #fff;
+        width: 15%;
+        padding: 10px; }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .product_list .wrapper .salesforce_menu .navbar .navbar-brand {
+            display: none; } }
+      .product_list .wrapper .salesforce_menu .navbar .navbar-toggler {
+        margin: 17px; }
+        @media (min-width: 240px) and (max-width: 767px) {
+          .product_list .wrapper .salesforce_menu .navbar .navbar-toggler {
+            background: #fff; } }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .product_list .wrapper .salesforce_menu .navbar .navbar-toggler {
+            background: #fff; } }
+      .product_list .wrapper .salesforce_menu .navbar .navbar-nav li {
+        padding: 0px 20px; }
+      .product_list .wrapper .salesforce_menu .navbar .navbar-nav a {
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+        margin: 0px auto;
+        line-height: 58px;
+        border-radius: 3px; }
+      .product_list .wrapper .salesforce_menu .navbar .serchfld {
+        padding: 10px; }
+    .product_list .wrapper .salesforce_menu .profile_settings {
+      margin-right: 15px;
+      display: flex; }
+      .product_list .wrapper .salesforce_menu .profile_settings .user_profile {
+        width: 47px;
+        height: 47px; }
+        .product_list .wrapper .salesforce_menu .profile_settings .user_profile img {
+          width: 47px;
+          height: 47px;
+          border-radius: 50%;
+          object-fit: cover; }
+      .product_list .wrapper .salesforce_menu .profile_settings a {
+        color: #fff;
+        font-size: 1.2rem; }
+        .product_list .wrapper .salesforce_menu .profile_settings a i {
+          margin: 23px 50px; }
+      .product_list .wrapper .salesforce_menu .profile_settings .dropdown-item {
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 8px;
+        text-align: left; }
+      .product_list .wrapper .salesforce_menu .profile_settings .dropdown {
+        display: inline-block; }
+      .product_list .wrapper .salesforce_menu .profile_settings .profile_dropdown {
+        background: #535659;
+        border-color: #535659;
+        border: none;
+        height: 60px;
+        margin-top: 10px;
+        color: #fff; }
+        .product_list .wrapper .salesforce_menu .profile_settings .profile_dropdown:focus {
+          outline: none;
+          background: #535659; }
+      .product_list .wrapper .salesforce_menu .profile_settings .dropdown-toggle::after {
+        color: #fff; }
+      .product_list .wrapper .salesforce_menu .profile_settings .dropdown-menu.show {
+        border: none;
+        border-top: 1px solid #ddd;
+        border-radius: 0px;
+        min-width: 6.5rem;
+        padding: 0px;
+        left: -21px; }
+    @media (min-width: 240px) and (max-width: 767px) {
+      .product_list .wrapper .salesforce_menu .profile_cart {
+        position: fixed;
+        right: 0px; } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .product_list .wrapper .salesforce_menu .profile_cart {
+        position: fixed;
+        right: 0px; } }
+    .product_list .wrapper .salesforce_menu .category_dropdown .dropbtn {
+      background-color: #535659;
+      color: white;
+      font-size: 16px;
+      border: none;
+      position: relative; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropbtn .hover_count {
+        position: absolute;
+        top: 20px;
+        background: red;
+        font-size: 0.8rem;
+        border-radius: 50%;
+        height: 17px;
+        margin-left: 3px;
+        width: 17px; }
+      @media (min-width: 240px) and (max-width: 767px) {
+        .product_list .wrapper .salesforce_menu .category_dropdown .dropbtn {
+          background-color: #535659;
+          padding-left: 0px; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .product_list .wrapper .salesforce_menu .category_dropdown .dropbtn {
+          background-color: #535659; } }
+    .product_list .wrapper .salesforce_menu .category_dropdown .dropdown {
+      position: relative;
+      display: inline-block; }
+    .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 385px;
+      padding: 15px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content h1 {
+        font-size: 1.5rem;
+        font-weight: 600; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content p {
+        font-weight: 600;
+        font-weight: 1rem; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content span {
+        font-weight: 600;
+        font-size: 1rem; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content .sub_total {
+        margin-top: 70px;
+        border-bottom: 1px solid #535659;
+        border-top: 1px solid #535659;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 2px 4px; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content .product_cart {
+        margin-top: 20px;
+        border-top: 1px solid #535659;
+        border-bottom: 1px solid #535659;
+        padding: 7px 0px 0px; }
+      .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content a {
+        color: black;
+        padding: 0px 16px;
+        text-decoration: none;
+        display: block; }
+        @media (min-width: 240px) and (max-width: 767px) {
+          .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content a {
+            display: inline-block; } }
+        .product_list .wrapper .salesforce_menu .category_dropdown .dropdown-content a:hover {
+          background-color: #ddd; }
+    .product_list .wrapper .salesforce_menu .category_dropdown .dropdown:hover .dropdown-content {
+      display: block; }
+      @media (min-width: 240px) and (max-width: 767px) {
+        .product_list .wrapper .salesforce_menu .category_dropdown .dropdown:hover .dropdown-content {
+          left: -20px;
+          max-height: 500px; } }
+.product_list .product_view .product_list_detail {
+  position: relative;
+  margin-top: 25px; }
+  .product_list .product_view .product_list_detail .products {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    margin: 0px auto; }
+    @media (min-width: 240px) and (max-width: 767px) {
+      .product_list .product_view .product_list_detail .products {
+        width: 100%;
+        display: inherit;
+        border: none; } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .product_list .product_view .product_list_detail .products {
+        width: 100%; } }
+    .product_list .product_view .product_list_detail .products li:nth-child(2) {
+      border: none; }
+    .product_list .product_view .product_list_detail .products li {
+      float: left;
+      width: 30%;
+      margin: 5% 0% 0%;
+      padding: 1.5rem;
+      text-align: center; }
+      @media (min-width: 240px) and (max-width: 767px) {
+        .product_list .product_view .product_list_detail .products li {
+          width: 50%;
+          display: inline-block;
+          border: none;
+          padding: 1rem; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .product_list .product_view .product_list_detail .products li {
+          padding: 1rem; } }
+      .product_list .product_view .product_list_detail .products li .img-wrap {
+        height: 200px;
+        width: 100%; }
+      .product_list .product_view .product_list_detail .products li h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .product_list .product_view .product_list_detail .products li .price {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 0px; }
+      .product_list .product_view .product_list_detail .products li .img-wrap img {
+        width: 100%;
+        object-fit: cover;
+        height: 200px; }
+      .product_list .product_view .product_list_detail .products li .add_to_cart {
+        margin-bottom: 10px;
+        margin-top: 5px; }
+        .product_list .product_view .product_list_detail .products li .add_to_cart a {
+          background: #0e5d96;
+          padding: 5px 20px;
+          font-size: 0.9rem;
+          border-radius: 20px;
+          color: #fff; }
+          .product_list .product_view .product_list_detail .products li .add_to_cart a:hover {
+            text-decoration: none; }
+        .product_list .product_view .product_list_detail .products li .add_to_cart .extend_cart {
+          font-weight: 600;
+          font-size: 1.1rem;
+          padding-bottom: 5px; }
+          .product_list .product_view .product_list_detail .products li .add_to_cart .extend_cart button {
+            background: none;
+            border: none;
+            padding: 0px 10px; }
+            .product_list .product_view .product_list_detail .products li .add_to_cart .extend_cart button:focus {
+              outline: none; }
+          .product_list .product_view .product_list_detail .products li .add_to_cart .extend_cart i {
+            margin-left: 0rem;
+            color: #000;
+            font-size: 0.9rem;
+            cursor: pointer; }
+.product_list .product_view .category_wise_view {
+  margin-top: 4rem; }
+  .product_list .product_view .category_wise_view p {
+    margin-top: 1.2rem;
+    margin-bottom: 0px;
+    font-weight: 600;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 3px; }
+  .product_list .product_view .category_wise_view ul {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 1rem; }
+    @media (min-width: 240px) and (max-width: 767px) {
+      .product_list .product_view .category_wise_view ul {
+        padding-left: 2rem; } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .product_list .product_view .category_wise_view ul {
+        padding-left: 3rem; } }
+    .product_list .product_view .category_wise_view ul li {
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 8px; }
+  .product_list .product_view .category_wise_view button {
+    background: #f37339;
+    border: #f37339;
+    color: #fff;
+    padding: 5px 24px;
+    font-size: 1rem;
+    font-weight: 600; }
+.product_list .product_view .price_wise_view p {
+  margin-top: 1.2rem;
+  margin-bottom: 0px;
+  font-weight: 600;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px; }
+.product_list .product_view .price_wise_view ul {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-left: 0.65rem;
+  list-style: none;
+  width: 100%;
+  margin: 0px auto; }
+  @media (min-width: 240px) and (max-width: 767px) {
+    .product_list .product_view .price_wise_view ul {
+      display: inherit; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .product_list .product_view .price_wise_view ul {
+      width: 100%; } }
+  .product_list .product_view .price_wise_view ul li {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%; }
+    @media (min-width: 240px) and (max-width: 767px) {
+      .product_list .product_view .price_wise_view ul li {
+        display: inline-block;
+        width: 45%; } }
+.product_list .product_view .price_wise_view button {
+  background: #f37339;
+  border: #f37339;
+  color: #fff;
+  padding: 5px 24px;
+  font-size: 1rem;
+  font-weight: 600; }
+.product_list .product_view .product_filter {
+  margin-top: 5px;
+  background: #fff;
+  border-bottom: 1px solid #f4f3f2; }
+  .product_list .product_view .product_filter span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    color: #0e5d96;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-right: 1px solid #f4f3f2;
+    border-left: 1px solid #f4f3f2; }
+  .product_list .product_view .product_filter .form-control {
+    width: 80%;
+    margin: 9px;
+    margin-left: 30px; }
+    @media (min-width: 240px) and (max-width: 767px) {
+      .product_list .product_view .product_filter .form-control {
+        margin-left: 0px; } }
+    .product_list .product_view .product_filter .form-control:focus {
+      outline: none;
+      box-shadow: none; }
+  .product_list .product_view .product_filter .search {
+    background: #f37339;
+    border: #f37339;
+    margin-left: 20px;
+    color: #fff;
+    height: 36px;
+    padding: 4px 24px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600; }
+
+/*customer_view start here*/
+/*order_list start here*/
+@media (min-width: 1500px) {
+  .order_list .container {
+    max-width: 82%; } }
+.order_list .user_order_list h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-top: 20px; }
+.order_list .user_order_list .table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #aac4d9;
+  border-top: none; }
+.order_list .user_order_list tr {
+  border-bottom: 1px solid #aac4d9; }
+.order_list .user_order_list td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 600;
+  border-top: none; }
+.order_list .user_order_list h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 2px; }
+.order_list .user_order_list p {
+  line-height: 23px;
+  font-weight: 500 !important;
+  margin-bottom: 0px; }
+
+/*order_list end here*/
+/* my_orders */
+.user_orders h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+.user_orders .my_orders .order_id {
+  padding: 10px;
+  background: #fff;
+  border-bottom: none; }
+  .user_orders .my_orders .order_id label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0e5d96;
+    margin-bottom: 5px; }
+  .user_orders .my_orders .order_id p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 1.1rem; }
+.user_orders .order_details {
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  border-top: none; }
+  .user_orders .order_details .order_image img {
+    width: 100%;
+    object-fit: cover;
+    height: 125px; }
+  .user_orders .order_details span {
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block; }
+  .user_orders .order_details h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-top: 20px; }
+  .user_orders .order_details .buy_again {
+    background: #f37339;
+    border: #f37339;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 10px; }
+  .user_orders .order_details ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 2px; }
+    .user_orders .order_details ul li {
+      padding: 5px;
+      font-size: 1.1rem;
+      font-weight: 500; }
+      .user_orders .order_details ul li a {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #0e5d96; }
+
+/* my_orders */
+/* invoice_list start here */
+.invoice_list h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #0e5d96;
+  font-size: 2rem;
+  margin-bottom: 2rem; }
+.invoice_list h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1rem; }
+.invoice_list .invoice_view {
+  padding-left: 5rem; }
+.invoice_list .Customer {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .invoice_list .Customer label {
+    font-size: 1rem;
+    width: 85px;
+    color: #0e5d96; }
+  .invoice_list .Customer span {
+    font-size: 1rem; }
+
+.category_view h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem; }
+
+.order_summery {
+  padding: 0px; }
+  .order_summery h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center; }
+
+.invoice_view {
+  background: #fff;
+  padding: 15px 0px;
+  }
+  .invoice_view .table {
+    margin-bottom: 0px; }
+    .invoice_view .table td a {
+      color: #535659; }
+    .invoice_view .table td .pending {
+      color: white;
+      font-weight: 600;
+      margin-top: 1rem;
+      background: #0e5d96;
+      border-width: initial;
+      border-style: initial;
+      border-color: #0e5d96;
+      border-image: initial;
+      padding: 4px 10px;
+      font-size: 0.9rem; }
+    .invoice_view .table td .deliverd {
+      color: white;
+      font-weight: 600;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      background: #009688;
+      border-width: initial;
+      border-style: initial;
+      border-color: #009688;
+      border-image: initial;
+      padding: 4px 10px; }
+
+.active_summery {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 0rem; }
+  .active_summery h2 {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem; }
+
+.production_view h2 {
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem; }
+.production_view ul {
+  padding-left: 0px;
+  list-style: none; }
+  .production_view ul li {
+    font-size: 1.1rem;
+    padding: 5px; }
+
+.customer_product {
+  width: 100%;
+  margin: 0px; }
+
+.total_cart_value {
+  border-top: 1px solid #ddd; }
+  .total_cart_value span {
+    font-weight: 600;
+    margin-top: 1rem;
+    display: inline-block;
+    margin-right: 0.4rem; }
+  .total_cart_value p {
+    font-weight: 600;
+    margin-top: 1rem; }
+  .total_cart_value .continue_shoping {
+    text-align: left; }
+    .total_cart_value .continue_shoping span {
+      background: #ffffff;
+      color: #f1501e;
+      border: 2px solid #f1501e;
+      margin-top: 0px !important;
+      font-weight: 600;
+      paddi[ng: 5px 10px; }
+
+.product_login {
+  margin-top: 0px; }
+  .product_login p {
+    margin-bottom: 5px;
+    font-size: 1rem; }
+  .product_login .form-control {
+    margin-bottom: 1rem; }
+  .product_login .place_order {
+    padding: 0px;
+    text-align: right;
+    margin-top: 3rem; }
+    .product_login .place_order span {
+      background: #f1501e;
+      color: #fff;
+      font-weight: 600;
+      padding: 7px 10px; }
+
+.add_cart_deatil {
+  margin-top: 4rem; }
+
+/* invoice_list end here */
+
+/*# sourceMappingURL=main.css.map */
